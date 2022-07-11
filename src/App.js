@@ -1,6 +1,6 @@
 import React from "react";
 import {Routes, Route} from 'react-router-dom/index';
-import {Navbar} from './component';
+import {Navbar, Footer} from './component';
 import {Homepage} from './page';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <Routes>
        <Route path='/' element={<Homepage />} />
     </Routes>
+    <Footer/>
     </>
   );
 }
