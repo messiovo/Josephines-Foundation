@@ -4,7 +4,7 @@ import logo from "./image/logo.PNG";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="sticky">
       <nav className="bg-black p-10 flex  flex-col justify-center items-center lg:flex-row lg:justify-around lg:p-4">
         <Link to="/">
           <div className="flex items-center">

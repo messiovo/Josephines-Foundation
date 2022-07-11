@@ -3,6 +3,28 @@ import { Hero } from "../component";
 import {Link} from 'react-router-dom';
 import {AiOutlineBulb} from 'react-icons/ai';
 
+const projectCard = [
+  {
+    id:1,
+    img: require("./image/pic3.jpg"),
+    title:"Poverty Alleviation",
+    text:"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil",
+
+  },
+  {
+    id:2,
+    img: require ("./image/pic7.jpg"),
+    title:"Medical Assistance",
+    text:"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil"
+  },
+  {
+    id:3,
+    img: require ("./image/pic1.jpg"),
+    title: "Education Assistance",
+    text: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil"
+  }
+]
+
 const Homepage = () => {
   return (
     <>
@@ -21,13 +43,17 @@ const Homepage = () => {
             ex ea commodi consequatur
           </p>
         </div>
-        <div className="h-60 mb-20 flex items-center justify-center bg-[url('./image/missionbg.jpg')] bg-[#252F46]/75  bg-no-repeat bg-blend-soft-light bg-cover bg-center">
+        <div className="h-60 mb-20 flex items-center justify-center bg-[url('./image/missionbulb.jpg')] bg-[#252F46]/75  bg-no-repeat bg-blend-soft-light bg-cover bg-center">
         <Link to="/mission">
           <button className=" flex items-center m-auto rounded-full bg-[#FF0023] text-white font-semibold text-xl py-2 px-12 transition-all duration-300 ease-out hover:bg-[#Fdb827] hover:text-black">
             <span><AiOutlineBulb size={20}/></span>
             <span className="pl-2">Mission & Vision</span> 
           </button>
         </Link>
+        </div>
+        <div>
+        <h1 className="text-2xl lg:text-4xl font-bold text-center">Our Projects</h1>
+        <div></div>
         </div>
       </div>
     </>
