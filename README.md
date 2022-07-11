@@ -1,0 +1,2 @@
+# Josephines-Foundation
+Nonprofit/Charity
