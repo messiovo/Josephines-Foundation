@@ -31,7 +31,7 @@ const Mission = () => {
         </div>
       </section>
 
-      <section className="flex flex-col-reverse px-4 items-center mb-16 lg:flex-row-reverse lg:items-start lg:mb-20 ">
+      <section className="flex flex-col-reverse px-4 items-center mb-10 lg:mb-20 lg:flex-row-reverse lg:items-start ">
         <div className="text-black  w-full px-6 lg:w-2/4 lg:px-0">
           <h1 className="text-xl text-center lg:text-2xl font-semibold pt-10 lg:pt-20  ">
             Our Vision
@@ -52,7 +52,7 @@ const Mission = () => {
           <img src={schoolkid} alt="picture" className="w-full m-auto" />
         </div>
       </section>
-      <section className="h-80 mb-20 flex flex-col items-center  bg-[url('./image/partnerbg.jpg')] bg-[#000]/70  bg-no-repeat bg-blend-soft-light bg-cover bg-center">
+      <section className="h-80 mb-20 flex flex-col items-center mt-0 lg:mt-10  bg-[url('./image/partnerbg.jpg')] bg-[#000]/70  bg-no-repeat bg-blend-soft-light bg-cover bg-center">
         <div>
           <h1 className="text-2xl lg:text-3xl font-bold text-white pt-16 text-center px-6">
             Partner With Us
@@ -73,7 +73,7 @@ const Mission = () => {
         </Link>
       </section>
       <section className="mb-20">
-      <div className="text-center text-xl lg:text-2xl font-bold px-20 pb-10">
+      <div className="text-center text-xl lg:text-2xl font-bold px-20 pb-10 mb-10">
             <h2>
               Josphine’s Foundation is dedicated to assisting and helping the
               poor to alleviate poverty. Please join us in this quest of ours.

@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/mission">
+            <Link to="/track">
               <span className="text-white text-l font-semibold py-2 px-4 hover:bg-[#FDB827] hover:text-black transition duration-300 ease-in hover:ease-out">
                 Our track
               </span>
