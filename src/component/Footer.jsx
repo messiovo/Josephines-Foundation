@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </Link>
       <div className="flex flex-col lg:flex-row justify-center lg:justify-around w-full mt-10">
-        <div className="px-10 flex flex-col items-center">
+        <div className="px-10 flex flex-col items-center lg:items-start">
           <span className="flex items-center text-lg lg:text-xl text-white pb-2 font-semibold">
             <AiOutlineHome size={20} />
             <h3 className="pl-2">Address</h3>
