@@ -8,9 +8,9 @@ const Form = () => {
   return (
     <div>
       <form className="bg-black mb-24 w-[22rem] m-auto p-10">
-        <div className="text-white mb-4">
-          <button>Once</button>
-          <button>Monthly</button>
+        <div className="mb-6 flex flex-row justify-around gap-6">
+          <button className="bg-[#D9D9D9] px-8 py-1 rounded-full text-lg lg:text-xl font-semibold">Once</button>
+          <button className="bg-[#FF0023] px-8 py-1 rounded-full text-white text-lg lg:text-xl font-semibold">Monthly</button>
         </div>
         <div className="grid grid-cols-3 gap-4 mb-4">
           <button className="bg-[#D9D9D9] px-2 py-1">N5000</button>
