@@ -45,7 +45,7 @@ const Contact = () => {
             Connect with us
           </h2>
         </div>
-        <div className=" w-2/4 flex flex-col items-center lg:items-start basis-1/2">
+        <div className=" w-2/4 flex flex-col lg:flex-row items-center lg:items-start basis-1/2">
           <span className="text-[#166fe5] text-2xl lg:text-3xl block">
             <BsFacebook />
           </span>
